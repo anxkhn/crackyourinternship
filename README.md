@@ -8,9 +8,9 @@
 | Easy | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | ✅ | - |  |  |  |  |
 | Easy | [Chocolate Distribution Problem](https://www.geeksforgeeks.org/chocolate-distribution-problem/) |  |  |  |  |  |  |
 | Easy | [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | ✅ | - |  |  |  |  |
-| Easy | [Sort Colors](https://leetcode.com/problems/sort-colors/) |  |  |  |  | - |  |
-| Easy | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |  |  |  |  |  |  |
-| Easy | [Two Sum](https://leetcode.com/problems/two-sum/) |  |  |  |  |  |  |
+| Easy | [Sort Colors](https://leetcode.com/problems/sort-colors/) | ✅ |  |  |  | - |  |
+| Easy | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | ✅ |  |  |  |  |  |
+| Easy | [Two Sum](https://leetcode.com/problems/two-sum/) | ✅ |  |  |  |  |  |
 | Easy | [Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |  |  |  | - |  |  |
 | Medium | [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) |  |  |  |  |  |  |
 | Medium | [Find All Duplicates In An Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) |  |  |  |  |  | - |
