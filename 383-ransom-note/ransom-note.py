@@ -1,13 +1,10 @@
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        letter_count = {}
-        for i in magazine:
-            letter_count[i] = letter_count.get(i, 0) + 1         
-
-
+        mag_list = list(magazine)
         for i in ransomNote:
-            if letter_count.get(i, 0) > 0:
-                letter_count[i] -= 1
+            if i in mag_list:
+                mag_list.remove(i)
             else:
                 return False
         return True
+
