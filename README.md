@@ -34,12 +34,12 @@
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
 |  | Strings |  |  |  |  |  |  |
-| Easy | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |  |  |  |  | - |  |
+| Easy | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | ✅ |  |  |  | - |  |
 | Easy | [Print All The Duplicates In The Input String](https://www.geeksforgeeks.org/print-all-the-duplicates-in-the-input-string/) |  |  |  |  |  |  |
-| Easy | [Implement Strstr](https://leetcode.com/problems/implement-strstr/) |  |  |  |  | - |  |
-| Easy | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) |  |  |  |  |  |  |
-| Easy | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) |  | - |  | - |  |  |
-| Medium | [Integer To Roman](https://leetcode.com/problems/integer-to-roman/) |  | - |  |  |  |  |
+| Easy | [Implement Strstr](https://leetcode.com/problems/implement-strstr/) | ✅ |  |  |  | - |  |
+| Easy | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | ✅ |  |  |  |  |  |
+| Easy | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | ✅ | - |  | - |  |  |
+| Medium | [Integer To Roman](https://leetcode.com/problems/integer-to-roman/) | ✅ | - |  |  |  |  |
 | Medium | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) |  |  |  |  | - |  |
 | Medium | [Simplify Path](https://leetcode.com/problems/simplify-path/) |  | - |  |  |  |  |
 | Medium | [Smallest Window In A String Containing All The Characters Of Another String](https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1) |  | - |  |  |  |  |
@@ -63,15 +63,15 @@
 | Medium | [Rotate Image](https://leetcode.com/problems/rotate-image/) |  |  |  |  | - |  |
 |  |  |  |  |  |  | - |  |
 |  | Mathematical Problems |  |  |  |  |  |  |
-| Easy | [Minimum Moves To Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) |  |  |  |  |  |  |
+| Easy | [Minimum Moves To Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | ✅ |  |  |  |  |  |
 | Easy | [Add Binary](https://leetcode.com/problems/add-binary/) |  |  |  |  |  |  |
-| Easy | [Maximum Product Of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) |  |  |  |  |  |  |
+| Easy | [Maximum Product Of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | ✅ |  |  |  |  |  |
 | Easy | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) |  |  |  |  |  |  |
 | Easy | [Happy Number](https://leetcode.com/problems/happy-number/) |  |  |  |  | - |  |
-| Easy | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) |  |  |  |  |  |  |
-| Easy | [Missing Number](https://leetcode.com/problems/missing-number/) |  | - |  |  |  |  |
+| Easy | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | ✅ |  |  |  |  |  |
+| Easy | [Missing Number](https://leetcode.com/problems/missing-number/) | ✅ | - |  |  |  |  |
 | Easy | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |  |  |  |  |  |  |
-| Easy | [Power Of Two](https://leetcode.com/problems/power-of-two/) |  |  |  |  |  |  |
+| Easy | [Power Of Two](https://leetcode.com/problems/power-of-two/) | ✅ |  |  |  |  |  |
 | Medium | [Max Points On A Line](https://leetcode.com/problems/max-points-on-a-line/) |  |  |  |  |  |  |
 | Medium | [Valid Square](https://leetcode.com/problems/valid-square/) |  |  |  |  | - |  |
 | Medium | [The Kth Factor Of N](https://leetcode.com/problems/the-kth-factor-of-n/) |  |  |  |  |  |  |
@@ -239,7 +239,7 @@
 |  |  |  |  |  |  |  |  |
 |  | Heaps / PQs |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
-| Easy/Medium | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |  |  |  |  |  |  |
+| Easy/Medium | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | ✅ |  |  |  |  |  |
 | Easy/Medium | [Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  |  |  |  |  |  |
 | Easy/Medium | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) |  |  |  |  |  |  |
 | Easy/Medium | [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) |  |  |  |  |  |  |
@@ -255,7 +255,7 @@
 | Hard | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
 |  | Dynamic Programming |  |  |  |  |  |  |
-| Easy | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) |  |  |  |  |  |  |
+| Easy | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | ✅ |  |  |  |  |  |
 | Easy | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) |  |  | - |  |  |  |
 | Easy | [Ones And Zeroes](https://leetcode.com/problems/ones-and-zeroes/) |  |  |  |  |  | - |
 | Easy | [Counting Bits](https://leetcode.com/problems/counting-bits/) |  |  |  |  | - |  |
