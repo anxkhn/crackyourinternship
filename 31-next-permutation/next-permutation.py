@@ -18,5 +18,4 @@ class Solution:
                 x.sort()
 
                 nums[:] = nums[:len(nums)-i-1]+[min]+x
-            print(nums)
     
