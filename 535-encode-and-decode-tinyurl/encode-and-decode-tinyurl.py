@@ -4,10 +4,12 @@ class Codec:
     links2 = {}
 
     def encode(self, longUrl: str) -> str:
-        x = len(self.links)
-        self.links[longUrl] = x
-        self.links2[x] = longUrl
-        return x        
+        if longUrl not in self.links:
+            x = len(self.links)
+            self.links[longUrl] = x
+            self.links2[x] = longUrl
+            return self.links[longUrl]    
+        return     
 
     def decode(self, shortUrl: str) -> str:
         return self.links2[shortUrl]
