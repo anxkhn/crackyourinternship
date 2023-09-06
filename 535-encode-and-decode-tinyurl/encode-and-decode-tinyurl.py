@@ -8,8 +8,8 @@ class Codec:
             x = len(self.links)
             self.links[longUrl] = x
             self.links2[x] = longUrl
-            return self.links[longUrl]    
-        return     
+            return x
+        return self.links[longUrl]
 
     def decode(self, shortUrl: str) -> str:
         return self.links2[shortUrl]
