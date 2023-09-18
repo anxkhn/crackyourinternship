@@ -11,7 +11,6 @@ class Solution:
                     return True
             else:
                 return False
-
         days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
         tot = 0
         for i in range(int(date[5:7])-1):
