@@ -1,6 +1,7 @@
 class Solution:
     def check(index,c):
         return index//c, index%c
+        # divmod function does the same thing.
 
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix:
@@ -16,7 +17,7 @@ class Solution:
     
             mid = l + (r - l) // 2
 
-            x,y = Solution.check(mid,columns)
+            x,y = divmod(mid,columns)
             if matrix[x][y] == target:
                 return True
     
