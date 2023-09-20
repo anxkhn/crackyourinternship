@@ -12,11 +12,13 @@ class Solution:
             if not root:
                 return
             helper(root.left)
+            if len(res) == k:
+                return
             res.add(root.val)
             helper(root.right)
 
         helper(root)
-        
+
         return list(res)[k-1]
 
         
