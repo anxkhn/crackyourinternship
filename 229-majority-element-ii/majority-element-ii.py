@@ -1,19 +1,21 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
-        nlow = len(nums)//3
-        hashh = {}
-        final = []
-        for i in nums:
-            print(hashh)
+        count = defaultdict(int)
 
-            if i not in hashh:
-                hashh[i] = 1
-            else:
-                hashh[i] += 1
-            if hashh[i] > nlow:
-                if i not in final:
-                    final.append(i)
-        print(hashh)
+        for n in nums:
+            count[n] += 1
 
-        return final
-            
+            if len(count) <= 2:
+                continue
+
+            new_count = defaultdict(int)
+            for n, c in count.items():
+                if c > 1:
+                    new_count[n] = c - 1
+            count = new_count
+
+        res = []
+        for n in count:
+            if nums.count(n) > len(nums) / 3:
+                res.append(n)
+        return res
