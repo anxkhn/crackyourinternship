@@ -1,11 +1,9 @@
 class Solution:
     def partitionLabels(self, s: str) -> List[int]:
-        dict_s = {}
         dict_e = {}
-        for i in range(len(s)):
-            if s[i] not in dict_s:
-                dict_s[s[i]] = i
-            dict_e[s[i]] = i
+        for i in range(len(s)-1,-1,-1):
+            if s[i] not in dict_e:
+                dict_e[s[i]] = i
 
         main = []
         start = 0
