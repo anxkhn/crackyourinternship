@@ -1,29 +1,20 @@
 class Solution:
     def findWinners(self, matches: List[List[int]]) -> List[List[int]]:
+        winners, first_losers, multiple_losers = set(), set(), set()
 
-        winners, losers = {}, {}
+        for winner, loser in matches:
+            # Add winner.
+            if winner not in first_losers and winner not in multiple_losers:
+                winners.add(winner)
 
-        for match in matches:
-            if match[0] not in winners:
-                winners[match[0]] = 1
-            else:
-                winners[match[0]] += 1
-            if match[1] not in losers:
-                losers[match[1]] = 1
-            else:
-                losers[match[1]] += 1
+            # Add or move loser.
+            if loser in winners:
+                winners.remove(loser)
+                first_losers.add(loser)
+            elif loser not in first_losers and loser not in multiple_losers:
+                first_losers.add(loser)
+            elif loser in first_losers:
+                first_losers.remove(loser)
+                multiple_losers.add(loser)
 
-        res_1, res_2 = [], []
-
-        for k, v in winners.items():
-            if k not in losers:
-                res_1.append(k)
-        
-        for k, v in losers.items():
-            if v == 1:
-                res_2.append(k)
-
-        res_1.sort()
-        res_2.sort()
-        
-        return [ res_1, res_2 ]
+        return [sorted(list(winners)), sorted(list(first_losers))]
