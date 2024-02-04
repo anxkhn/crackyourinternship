@@ -13,9 +13,8 @@ class Solution:
         for l in lst:
             first = x//l
             second = y//l
-            if str2[:l]*second == str2:
-                if str2[:l]*first == str1:
-                    return str2[:l]
+            if str2[:l]*second == str2 and str2[:l]*first == str1:
+                return str2[:l]
         else:
             return ""
 
